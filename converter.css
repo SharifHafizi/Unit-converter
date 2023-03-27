@@ -1,0 +1,171 @@
+#main {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 550px;
+  height: 729px;
+  left: 27%;
+  top: 40px;
+
+  background: #f4f4f4;
+}
+#up-container {
+  position: absolute;
+  width: 550px;
+  height: 285px;
+  left: 0px;
+  top: 0px;
+
+  background: #6943ff;
+}
+#main-1 {
+  position: absolute;
+  width: 500px;
+  height: 108.57px;
+  left: 25px;
+  top: 321px;
+
+  /* white */
+
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+}
+#main-2 {
+  position: absolute;
+  width: 500px;
+  height: 108.57px;
+  left: 25px;
+  top: 453px;
+
+  /* white */
+
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+}
+#main-3 {
+  position: absolute;
+  width: 500px;
+  height: 108.57px;
+  left: 25px;
+  top: 585px;
+
+  /* white */
+
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+}
+h1 {
+  position: absolute;
+  width: 448.4px;
+  height: 38px;
+  left: 51px;
+  top: 33px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  /* identical to box height, or 136% */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+#box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 117px;
+  height: 83px;
+  left: 217px;
+  top: 101px;
+  background: #6943ff;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 24px;
+  /* or 42% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+#btn {
+  position: absolute;
+  width: 117px;
+  height: 42px;
+  left: 217px;
+  top: 209px;
+
+  background: #ffffff;
+  /* shadow/sm */
+  border: none;
+  box-shadow: 0px 1px 2px rgb(255, 253, 253);
+  border-radius: 5px;
+}
+h2 {
+  position: absolute;
+  width: 346px;
+  height: 25px;
+  left: 77px;
+  top: 11px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+
+  text-align: center;
+
+  color: #5a537b;
+}
+p {
+  position: absolute;
+  width: 346px;
+  height: 25px;
+  left: 77px;
+  top: 45px;
+
+  /* text-sm/leading-5/font-normal */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  color: #353535;
+}
+#btn-dark::before {
+  font-size: 11px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 70px;
+  height: 20px;
+  align-items: left;
+
+  /* shadow/sm */
+  border: none;
+
+  border-radius: 5px;
+}
+
+.darkmood {
+  background: #0b1018;
+  color: white;
+}
+.darkmoodBtn {
+  background-color: #353535;
+  color: #6943ff;
+}
